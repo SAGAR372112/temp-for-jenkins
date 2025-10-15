@@ -11,6 +11,7 @@ def selection_sort(arr):
                 small = j
         arr[i], arr[small] = arr[small], arr[i]
     return arr
-res = selection_sort(arr)
+    
 print("before sort: ", arr)
+res = selection_sort(arr)
 print('after sort:', res)
