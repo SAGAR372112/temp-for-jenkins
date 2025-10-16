@@ -10,7 +10,7 @@ def selection_sort(arr):
             if arr[j]<arr[small]:
                 small = j
         arr[i], arr[small] = arr[small], arr[i]
-    return ar
+    return arr
     
 print("before sort: ", arr)
 res = selection_sort(arr)
